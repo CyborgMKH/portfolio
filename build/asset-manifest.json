@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/static/js/main.bceec49e.js",
+    "static/media/ems.png": "/static/media/ems.373bf66593a7459c4a11.png",
+    "static/media/portfolio.png": "/static/media/portfolio.2c2cce2df19d33c4650b.png",
+    "static/media/diabetec.png": "/static/media/diabetec.095bffb871f43937957c.png",
+    "static/media/cat.png": "/static/media/cat.4e11936e6c442d400ee8.png",
+    "static/media/wave.png": "/static/media/wave.503a74d0be9560e540f1.png",
+    "index.html": "/index.html",
+    "main.bceec49e.js.map": "/static/js/main.bceec49e.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.bceec49e.js"
+  ]
+}
