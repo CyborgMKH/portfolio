@@ -1,6 +1,6 @@
 import ems from '../assets/ems.png'
 import diabetec from '../assets/diabetec.png'
-
+import portfolio from '../assets/portfolio.png'
 
 export interface ProjectProps {
   name: string
@@ -21,6 +21,12 @@ export const projects: ProjectProps[] = [
     link: 'https://github.com/CyborgMKH/1st-Repo/blob/master/DiabetesPrediction1.ipynb',
     slug: 'CyborgMKH/1st-Repo',
     bimg: diabetec,
+  },
+  {
+    name: 'Portfolio.js',
+    link: 'https://github.com/CyborgMKH/portfolio',
+    slug: 'CyborgMKH/portfolio',
+    bimg: portfolio,
   }
   
 ]
