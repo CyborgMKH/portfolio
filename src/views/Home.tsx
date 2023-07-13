@@ -1,65 +1,65 @@
-import React from 'react'
-import avatar from '../assets/avatar.png'
-import wave from '../assets/wave.png'
+import React from "react";
+import avatar from "../assets/avatar.png";
+import wave from "../assets/wave.png";
+import Typewriter from "typewriter-effect";
+import { FaReact, FaFigma, FaNodeJs, FaGithub, FaGitAlt } from "react-icons/fa";
+import {
+  SiTailwindcss,
+  SiVisualstudiocode,
+  SiJavascript,
+} from "react-icons/si";
 
 const Home = () => {
   return (
     <div className="lg:pl-2 flex flex-col">
       <div>
-        <img className="w-18 h-18 shadow-lg rounded-full" src={avatar} alt="avatar" />
+        <img
+          className="w-18 h-18 shadow-lg rounded-full"
+          src={avatar}
+          alt="avatar"
+        />
         <div className="mt-8 text-2xl font-bold flex">
           <img className="w-8 h-8 mr-2 wave" src={wave} alt="wave" />
           <div>Suman Mukhiya</div>
         </div>
       </div>
 
-      {/* <div className="leading-relaxed mt-12">
-        Postgrad at the{' '}
-        <a
-          className="text-blue-700 hover:text-blue-500 dark:text-blue-500 dark:hover:text-blue-300"
-          href="https://www.gla.ac.uk/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          University of Glasgow
-        </a>
-        . Alumni of the{' '}
-        <a
-          className="text-green-700 hover:text-green-500 dark:text-green-500 dark:hover:text-green-400"
-          href="http://www.bit.edu.cn"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Beijing Institute of Technology
-        </a>
-        . Senior author at{' '}
-        <a
-          className="text-red-700 hover:text-red-500 dark:text-gred-500 dark:hover:text-red-400"
-          href="https://sspai.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          SSPAI
-        </a>
-        . <span className="font-bold">A dude</span>.
-      </div> */}
+      <div className="text-2xl select-none font-gothaml pt-5">
+        <Typewriter
+          options={{
+            strings: ["नमस्ते", "hello !", "olá !"],
+            autoStart: true,
+            loop: true,
+          }}
+        />
+      </div>
 
       <div className="leading-relaxed mt-2">
-        Python is tasty. JavaScript is juicy. TypeScript is toothsome. PyTorch is creamy. Vue is yummy. Happen to know
-        some React now. Java / C++ / Go, Express / SQL ... maybe? Still a long way to full-stack or data scientist.
+        Python is tasty. JavaScript is juicy. TypeScript is toothsome. PyTorch
+        is creamy. Vue is yummy. Happen to know some React now. Java / C# / Go,
+        Express / SQL/ Firebase ... maybe? Still a long way to full-stack or data
+        scientist.
       </div>
       <div className="leading-relaxed mt-2">
-      I have great interest in full-stack development, artificial intelligence, human-computer interactions, and everything in between.
+        I have great interest in full-stack development, artificial
+        intelligence, human-computer interactions, and everything in between.
       </div>
-      <div className="leading-relaxed mt-2">Decent sense of aesthetic. Hope that won't disappoint you.</div>
-      <div className="leading-relaxed mt-2">Cheers. Obviously that's how people greet each other in Scotland ;)</div>
+      <div className="leading-relaxed mt-2">
+        Decent sense of aesthetic. Hope that won't disappoint you.
+      </div>
+      <div className="leading-relaxed mt-2">
+        Cheers. Obviously that's how people greet each other in Scotland ;)
+      </div>
 
       <div className="leading-relaxed mt-12 flex space-x-3">
+        <p className= "pb-1 border-b-2 border-pink-500 select-none">
+          Socials &#x40;
+        </p>
         <a
           href="https://github.com/CyborgMKH"
           target="_blank"
           rel="noopener noreferrer"
-          className="pb-1 border-b-2 border-black hover:text-gray-600 dark:border-white dark:hover:text-gray-400"
+          className="pb-1 border-b-2 border-black hover:text-gray-600 dark:border-purple dark:hover:text-gray-400"
         >
           GitHub
         </a>
@@ -88,8 +88,21 @@ const Home = () => {
           Linkedin
         </a>
       </div>
+      <p className="text-lg mt-6 pb-2 border-b-2 select-none flex items-center">
+        t&amp;t &#x1F527;
+        <span className="ml-4 space-x-2">
+          <SiVisualstudiocode className="h-8 w-8 inline-block" />
+          <SiJavascript className="h-8 w-8 inline-block" />
+          <FaReact className="h-8 w-8 inline-block" />
+          <FaNodeJs className="h-8 w-8 inline-block" />
+          <SiTailwindcss className="h-8 w-8 inline-block" />
+          <FaFigma className="h-8 w-8 inline-block" />
+          <FaGitAlt className="h-8 w-8 inline-block" />
+          <FaGithub className="h-8 w-8 inline-block" />
+        </span>
+      </p>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

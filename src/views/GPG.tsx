@@ -88,7 +88,7 @@ const GPG: React.FC = () => {
           value={formData.message}
         ></textarea>
         <button
-          className={`block mt-4 text-white font-bold text-sm px-4 py-2 rounded-md ${
+          className={`block mt-4 bg-gray-500 text-white font-bold text-sm px-4 py-2 rounded-md ${
             isDisabled
               ? "bg-gradient-to-r from-gray-500 via-black to-gray-500 cursor-not-allowed"
               : "bg-blue hover:bg-green-500 hover:text-white"

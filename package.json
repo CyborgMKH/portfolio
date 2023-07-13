@@ -10,11 +10,15 @@
     "@heroicons/react": "^1.0.1",
     "@icons-pack/react-simple-icons": "^4.0.0",
     "axios": "^0.21.1",
+    "classnames": "^2.3.2",
+    "next-themes": "^0.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.10.1",
     "react-router-dom": "^5.2.0",
-    "react-transition-group": "^4.4.1"
+    "react-transition-group": "^4.4.1",
+    "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.2.2",
