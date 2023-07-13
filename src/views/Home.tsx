@@ -2,11 +2,14 @@ import React from "react";
 import avatar from "../assets/avatar.png";
 import wave from "../assets/wave.png";
 import Typewriter from "typewriter-effect";
-import { FaReact, FaFigma, FaNodeJs, FaGithub, FaGitAlt } from "react-icons/fa";
+import { FaReact, FaFigma, FaNodeJs, FaGithub, FaGitAlt, FaJava, FaProjectDiagram } from "react-icons/fa";
 import {
   SiTailwindcss,
   SiVisualstudiocode,
   SiJavascript,
+  SiAndroidstudio,
+  SiFirebase,
+  SiMongodb
 } from "react-icons/si";
 
 const Home = () => {
@@ -99,6 +102,12 @@ const Home = () => {
           <FaFigma className="h-8 w-8 inline-block" />
           <FaGitAlt className="h-8 w-8 inline-block" />
           <FaGithub className="h-8 w-8 inline-block" />
+          <FaJava className="h-8 w-8 inline-block"/>
+          <SiAndroidstudio className="h-8 w-8 inline-block" />
+          <SiFirebase className="h-8 w-8 inline-block"/>
+          <SiMongodb className="h-8 w-8 inline-block"/>
+          <FaProjectDiagram className="h-8 w-8 inline-block"/>
+
         </span>
       </p>
     </div>
