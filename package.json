@@ -6,7 +6,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "postcss src/index.css -o build/index.css && react-scripts build --entry=/main.tsx",
+    "build": "tsc && vite build",
     "dev": "vite"
   },
   "dependencies": {
