@@ -162,7 +162,7 @@ const App = () => {
                 TypeScript.
               </a>
             </div>
-            <div>Suman Mukiya © 2021-{currentYear}</div>
+            <div>Suman Mukhiya © 2021-{currentYear}</div>
           </div>
         </footer>
       </div>
