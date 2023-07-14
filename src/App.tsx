@@ -1,6 +1,6 @@
 import { AcademicCapIcon, ExternalLinkIcon, MenuIcon } from '@heroicons/react/outline'
 import React, { useEffect, useRef, useState } from 'react'
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom'
 import { CSSTransition } from 'react-transition-group'
 import GPG from './views/GPG'
 import Home from './views/Home'
@@ -108,23 +108,13 @@ const App = () => {
           </nav>
 
           <div className="my-16">
-            <Switch>
-              <Route path="/projects">
-                <Projects />
-              </Route>
-              <Route path="/social">
-                <Social />
-              </Route>
-              <Route path="/gpg">
-                <GPG />
-              </Route>
-              <Route exact path="/">
-                <Home />
-              </Route>
-              <Route path="*">
-                <NotFound />
-              </Route>
-            </Switch>
+          <Routes>
+              <Route path="/projects" element={<Projects />} /> {/* Wrap Projects component with Route */}
+              <Route path="/social" element={<Social />} /> {/* Wrap Social component with Route */}
+              <Route path="/gpg" element={<GPG />} /> {/* Wrap GPG component with Route */}
+              <Route path="/" element={<Home />} /> {/* Use "element" prop for the root path */}
+              <Route path="*" element={<NotFound />} /> {/* Use "element" prop for the wildcard path */}
+            </Routes>
           </div>
         </div>
 
