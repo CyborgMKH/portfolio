@@ -45,24 +45,24 @@ const Home = () => {
         />
       </div>
 
-      <div className="leading-relaxed mt-2">
+      <div className="leading-relaxed mt-2 text-justify">
         Python is tasty. JavaScript is juicy. TypeScript is toothsome. PyTorch
         is creamy. Vue is yummy. Happen to know some React now. Java / C# / Go,
         Express / SQL/ Firebase ... maybe? Still a long way to full-stack or
         data scientist.
       </div>
-      <div className="leading-relaxed mt-2">
+      <div className="leading-relaxed mt-2 text-justify">
         I have great interest in full-stack development, artificial
         intelligence, human-computer interactions, and everything in between.
       </div>
-      <div className="leading-relaxed mt-2">
+      <div className="leading-relaxed mt-2 text-justify">
         Decent sense of aesthetic. Hope that won't disappoint you.
       </div>
-      <div className="leading-relaxed mt-2">
+      <div className="leading-relaxed mt-2 text-justify">
         Cheers. Obviously that's how people greet each other in Scotland ;)
       </div>
 
-      <div className="leading-relaxed mt-12 flex space-x-3">
+      <div className="leading-relaxed mt-12 flex flex-wrap space-x-3">
         <p className="pb-1 border-b-2 border-pink-500 select-none">
           Socials &#x40;
         </p>
