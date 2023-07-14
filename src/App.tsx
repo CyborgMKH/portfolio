@@ -75,7 +75,7 @@ const App = () => {
               </Link>
               <Link
                 className="text-blue-700 dark:text-yellow-400 p-2 rounded hover:bg-blue-50 dark:hover:bg-gray-800"
-                to="/gpg"
+                to="/contact"
               >
                 Contact
               </Link>
