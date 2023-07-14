@@ -7,7 +7,7 @@ interface FormData {
   message: string;
 }
 
-const GPG: React.FC = () => {
+const Contact: React.FC = () => {
   const [isDisabled, setIsDisabled] = useState(false);
   const [formData, setFormData] = useState<FormData>({
     name: "",
@@ -100,10 +100,11 @@ const GPG: React.FC = () => {
       </form>
       <p className="text-sm mt-8 -mb-8">
         if email not sent ping me at
-        <br />suman(dot)chaudhary3600(at)gmail(dot)com
+        <br />
+        suman(dot)chaudhary3600(at)gmail(dot)com
       </p>
     </div>
   );
 };
 
-export default GPG;
+export default Contact;

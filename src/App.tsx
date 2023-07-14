@@ -13,7 +13,7 @@ import {
   createHashRouter,
 } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
-import GPG from "./views/GPG";
+import Contact from "./views/Contact";
 import Home from "./views/Home";
 import NotFound from "./views/NotFound";
 import Projects from "./views/Projects";
@@ -133,7 +133,7 @@ const App = () => {
               <Route path="/" Component={Home} />
               <Route path="/projects" Component={Projects} />
               <Route path="/social" Component={Social} />
-              <Route path="/gpg" Component={GPG} />
+              <Route path="/contact" Component={Contact} />
               <Route path="*" Component={NotFound} />
             </Routes>
           </div>

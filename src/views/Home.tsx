@@ -2,14 +2,22 @@ import React from "react";
 import avatar from "../assets/avatar.png";
 import wave from "../assets/wave.png";
 import Typewriter from "typewriter-effect";
-import { FaReact, FaFigma, FaNodeJs, FaGithub, FaGitAlt, FaJava, FaProjectDiagram } from "react-icons/fa";
+import {
+  FaReact,
+  FaFigma,
+  FaNodeJs,
+  FaGithub,
+  FaGitAlt,
+  FaJava,
+  FaProjectDiagram,
+} from "react-icons/fa";
 import {
   SiTailwindcss,
   SiVisualstudiocode,
   SiJavascript,
   SiAndroidstudio,
   SiFirebase,
-  SiMongodb
+  SiMongodb,
 } from "react-icons/si";
 
 const Home = () => {
@@ -30,7 +38,7 @@ const Home = () => {
       <div className="text-2xl select-none font-gothaml pt-5">
         <Typewriter
           options={{
-            strings: ["नमस्ते", "hello !", "olá !"],
+            strings: ["नमस्ते", "hello !", "こんにちは"],
             autoStart: true,
             loop: true,
           }}
@@ -40,8 +48,8 @@ const Home = () => {
       <div className="leading-relaxed mt-2">
         Python is tasty. JavaScript is juicy. TypeScript is toothsome. PyTorch
         is creamy. Vue is yummy. Happen to know some React now. Java / C# / Go,
-        Express / SQL/ Firebase ... maybe? Still a long way to full-stack or data
-        scientist.
+        Express / SQL/ Firebase ... maybe? Still a long way to full-stack or
+        data scientist.
       </div>
       <div className="leading-relaxed mt-2">
         I have great interest in full-stack development, artificial
@@ -55,7 +63,7 @@ const Home = () => {
       </div>
 
       <div className="leading-relaxed mt-12 flex space-x-3">
-        <p className= "pb-1 border-b-2 border-pink-500 select-none">
+        <p className="pb-1 border-b-2 border-pink-500 select-none">
           Socials &#x40;
         </p>
         <a
@@ -102,12 +110,11 @@ const Home = () => {
           <FaFigma className="h-8 w-8 inline-block" />
           <FaGitAlt className="h-8 w-8 inline-block" />
           <FaGithub className="h-8 w-8 inline-block" />
-          <FaJava className="h-8 w-8 inline-block"/>
+          <FaJava className="h-8 w-8 inline-block" />
           <SiAndroidstudio className="h-8 w-8 inline-block" />
-          <SiFirebase className="h-8 w-8 inline-block"/>
-          <SiMongodb className="h-8 w-8 inline-block"/>
-          <FaProjectDiagram className="h-8 w-8 inline-block"/>
-
+          <SiFirebase className="h-8 w-8 inline-block" />
+          <SiMongodb className="h-8 w-8 inline-block" />
+          <FaProjectDiagram className="h-8 w-8 inline-block" />
         </span>
       </p>
     </div>
