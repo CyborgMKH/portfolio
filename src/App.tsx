@@ -112,7 +112,7 @@ const App = () => {
                   <Link to="/social" onClick={closeMenu}>
                     Blogs
                   </Link>
-                  <Link to="/gpg" onClick={closeMenu}>
+                  <Link to="/contact" onClick={closeMenu}>
                     Contact
                   </Link>
                   <a
