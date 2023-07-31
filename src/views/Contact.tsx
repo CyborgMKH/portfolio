@@ -101,7 +101,7 @@ const Contact: React.FC = () => {
       <p className="text-sm mt-8 -mb-8">
         if email not sent ping me at
         <br />
-        suman(dot)chaudhary3600(at)gmail(dot)com
+        hi(at)sumanmukhiya(dot)com(dot)np
       </p>
     </div>
   );

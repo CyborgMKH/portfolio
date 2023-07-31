@@ -82,7 +82,7 @@ const App = () => {
             </div>
             <a
               className="bg-pink-100 text-pink-700 p-2 rounded bg-opacity-40 hover:bg-opacity-80 dark:bg-opacity-10 dark:hover:bg-opacity-20 hidden md:block"
-              href="mailto:suman.mukhiya@hotmail.com"
+              href="mailto:hi@sumanmukhiya.com.np"
             >
               Get in touch
             </a>
@@ -117,7 +117,7 @@ const App = () => {
                   </Link>
                   <a
                     className="flex items-center"
-                    href="mailto:suman.mukhiya@hotmail.com"
+                    href="mailto:hi@sumanmukhiya.com.np"
                     onClick={closeMenu}
                   >
                     <span className="mr-2">Get in touch</span>
@@ -143,20 +143,20 @@ const App = () => {
           <div className="container mx-auto">
             <div>
               Powered by{" "}
-              <a className="hover:text-white" href="https://reactjs.org/">
+              <a className="dark:hover:text-white hover:text-blue-600" href="https://reactjs.org/">
                 React
               </a>
               ,{" "}
-              <a className="hover:text-white" href="https://tailwindcss.com/">
+              <a className="dark:hover:text-white hover:text-blue-600" href="https://tailwindcss.com/">
                 Tailwind CSS
               </a>
               ,{" "}
-              <a className="hover:text-white" href="https://vitejs.dev/">
+              <a className="dark:hover:text-white hover:text-blue-600" href="https://vitejs.dev/">
                 Vite
               </a>{" "}
               and{" "}
               <a
-                className="hover:text-white"
+                className="dark:hover:text-white hover:text-blue-600"
                 href="https://www.typescriptlang.org/"
               >
                 TypeScript.
