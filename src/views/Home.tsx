@@ -48,7 +48,7 @@ const Home = () => {
       <div className="leading-relaxed mt-2 text-justify">
         Python is tasty. JavaScript is juicy. TypeScript is toothsome. PyTorch
         is creamy. Vue is yummy. Happen to know some React now. Java / C# / Go,
-        Express / SQL/ Firebase ... maybe? Still a long way to full-stack or
+        Express / SQL/ Firebase/ MongoDB ... maybe? Still a long way to full-stack or
         data scientist.
       </div>
       <div className="leading-relaxed mt-2 text-justify">

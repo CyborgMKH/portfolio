@@ -1,6 +1,7 @@
 import ems from '../assets/ems.png'
 import diabetec from '../assets/diabetec.png'
 import portfolio from '../assets/portfolio.png'
+import SuitCase from '../assets/SuitCase.png'
 
 export interface ProjectProps {
   name: string
@@ -27,6 +28,12 @@ export const projects: ProjectProps[] = [
     link: 'https://github.com/CyborgMKH/portfolio',
     slug: 'CyborgMKH/portfolio',
     bimg: portfolio,
+  },
+  {
+    name: 'SuitCase Native Mobile Application',
+    link: 'https://github.com/CyborgMKH/SuitCase',
+    slug: 'CyborgMKH/SuitCase',
+    bimg: SuitCase,
   }
   
 ]
