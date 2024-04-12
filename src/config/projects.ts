@@ -2,6 +2,7 @@ import ems from '../assets/ems.png'
 import diabetec from '../assets/diabetec.png'
 import portfolio from '../assets/portfolio.png'
 import SuitCase from '../assets/SuitCase.png'
+import payris from '../assets/payris.png'
 
 export interface ProjectProps {
   name: string
@@ -34,6 +35,12 @@ export const projects: ProjectProps[] = [
     link: 'https://github.com/CyborgMKH/SuitCase',
     slug: 'CyborgMKH/SuitCase',
     bimg: SuitCase,
+  },
+  {
+    name: 'Fun Olympics Project | Laravel',
+    link: 'https://github.com/CyborgMKH/Olympics.git',
+    slug: 'CyborgMKH/SuitCase',
+    bimg: payris,
   }
   
 ]
