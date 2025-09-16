@@ -27,8 +27,7 @@ const Contact: React.FC = () => {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsDisabled(true);
-    const result = await fetch(
-      "https://mailer-42j5.onrender.com/api/v1/send-email",
+    const result = await fetch( import.meta.env.VITE_API_URL,
       {
         method: "POST",
         headers: {
