@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
     e.preventDefault();
     setIsDisabled(true);
     const result = await fetch(
-      "https://mailer-42j5.onrender.com",
+      "https://mailer-42j5.onrender.com/api/v1/send-email",
       {
         method: "POST",
         headers: {
