@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
     e.preventDefault();
     setIsDisabled(true);
     const result = await fetch(
-      "https://ill-blue-caterpillar-cuff.cyclic.app/api/v1/send-email",
+      "https://mailer-42j5.onrender.com",
       {
         method: "POST",
         headers: {
